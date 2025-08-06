@@ -1,6 +1,6 @@
 
 # 🛠️ Shell Setup Bootstrap
-_A one-shot installer for an opinionated Z-shell + Terminator workstation on any Debian / Ubuntu–based distro._
+_A one-shot installer for zsh, oh my zsh, nerd fonts, oh my zsh plugins + Terminator workstation on any Debian / Ubuntu–based distro._
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
@@ -26,3 +26,12 @@ _A one-shot installer for an opinionated Z-shell + Terminator workstation on any
 ```bash
 sudo apt update && sudo apt install -y curl
 bash <(curl -fsSL https://raw.githubusercontent.com/myceliam/ShellScripts/main/shellsetup.sh)
+```
+
+---
+
+## Contributions
+
+* Any contributions or suggestions are welcome.
+
+---
