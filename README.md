@@ -1,12 +1,20 @@
 
-# 🛠️ Shell Setup Bootstrap
+# 🛠️ Shell Setup Bootstrap 🛠️
 _A one-shot installer for zsh, oh my zsh, nerd fonts, oh my zsh plugins + Terminator workstation on any Debian / Ubuntu–based distro._
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
+
 ---
 
-## ✨ Features
+## Prerequisites
+ 
+ * Internet access
+ * Debian based distribution using APT
+
+---
+
+## ✨ Features ✨
 
 * Installs **Zsh** & sets it as your login shell  
 * Installs **Oh My Zsh**, **Powerlevel10k**, Meslo Nerd Fonts  
@@ -17,7 +25,7 @@ _A one-shot installer for zsh, oh my zsh, nerd fonts, oh my zsh plugins + Termin
 
 ---
 
-## 🚀 Quick install
+## 🚀 Quick install 🚀
 
  * Copy the code below into your console and watch the magic happen!
  
@@ -30,8 +38,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/myceliam/ShellScripts/main/s
 
 ---
 
-## Contributions
+## ❤️ Contributions ❤️
 
-* Any contributions or suggestions are welcome.
+Any contributions or suggestions are welcome!
 
 ---
