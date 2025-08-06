@@ -226,7 +226,7 @@ INFO "Default terminal set"
 
 # 9. Switch login shell → zsh
 if [[ "$SHELL" != "$(command -v zsh)" ]]; then
-  STEP "Changing default login shell to zs  h ..."
+  STEP "Changing default login shell to zsh ..."
   chsh -s "$(command -v zsh)"
   INFO "Shell changed (log out/in to take effect)"
 fi
