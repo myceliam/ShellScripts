@@ -11,6 +11,10 @@ _A one-shot installer for zsh, oh my zsh, nerd fonts, oh my zsh plugins + Termin
  
  * Internet access
  * Debian based distribution using APT
+ * cURL - install with snippet below:
+ ```bash
+ sudo apt update && sudo apt install -y curl
+```
 
 ---
 
@@ -32,7 +36,6 @@ _A one-shot installer for zsh, oh my zsh, nerd fonts, oh my zsh plugins + Termin
  ---
 
 ```bash
-sudo apt update && sudo apt install -y curl
 bash <(curl -fsSL https://raw.githubusercontent.com/myceliam/ShellScripts/main/shellsetup.sh)
 ```
 
