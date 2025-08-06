@@ -217,15 +217,16 @@ cat > "$TERMINATOR_CFG" <<"TERMCFG"
 TERMCFG
 INFO "Terminator config written"
 
-# 8. Make Terminator default terminal
+# 8. Make Terminator default x-terminal-emulator
 STEP "Setting Terminator as default terminal ..."
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/terminator 60
-sudo update-alternatives --set      /usr/bin/x-terminal-emulator /usr/bin/terminator
+sudo update-alternatives --install /usr/bin/x-terminal-emulator \
+        x-terminal-emulator /usr/bin/terminator 60
+sudo update-alternatives --set x-terminal-emulator /usr/bin/terminator
 INFO "Default terminal set"
 
 # 9. Switch login shell → zsh
 if [[ "$SHELL" != "$(command -v zsh)" ]]; then
-  STEP "Changing default login shell to zsh ..."
+  STEP "Changing default login shell to zs  h ..."
   chsh -s "$(command -v zsh)"
   INFO "Shell changed (log out/in to take effect)"
 fi
