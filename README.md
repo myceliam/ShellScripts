@@ -6,23 +6,22 @@ _A one-shot installer for an opinionated Z-shell + Terminator workstation on any
 
 ---
 
-## ✨ What it does
+## ✨ Features
 
-* Installs **Zsh** and makes it your login shell  
-* Installs **Oh-My-Zsh**, **Powerlevel10k** and Meslo Nerd Fonts  
-* Pulls a curated plugin set: autosuggestions, completions, history-search, fzf-tab, fast-syntax-highlighting, etc.  
-* Drops a fully-commented **`.zshrc`** with  
-  * Solarized colour palette  
-  * >50 handy aliases  
-  * interactive emoji **cheatsheet**  
-* Installs **Terminator**, sets it as the default `x-terminal-emulator`, and pre-loads a transparent Solarized-Dark profile  
-* All idempotent — run it again, it just prints ✅ and exits.
+* Installs **Zsh** & sets it as your login shell  
+* Installs **Oh My Zsh**, **Powerlevel10k**, Meslo Nerd Fonts  
+* Pulls plugins: autosuggestions, completions, history-substring-search, fast-syntax-highlighting, fzf-tab, zsh-autocomplete, you-should-use, git-open  
+* Generates a fully-loaded **`.zshrc`** (Solarized palette, > 50 aliases, emoji cheatsheet)  
+* Installs **Terminator**, registers it as the default `x-terminal-emulator`, pre-loads a transparent Solarized-Dark profile  
+* Idempotent – re-running just prints ✅ and exits
 
 ---
 
-## 🚀 Quick install (1-liner)
+## 🚀 Quick install
 
-> _Requires `curl` and sudo rights._
+> Run these **two lines** on any Debian-based distro (Ubuntu, Kali, Mint, Pop!\_OS …).  
+> Line ① guarantees `curl`; line ② streams the script straight into Bash.
 
 ```bash
+sudo apt update && sudo apt install -y curl
 bash <(curl -fsSL https://raw.githubusercontent.com/myceliam/ShellScripts/main/shellsetup.sh)
