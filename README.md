@@ -19,8 +19,9 @@ _A one-shot installer for an opinionated Z-shell + Terminator workstation on any
 
 ## 🚀 Quick install
 
-> Run these **two lines** on any Debian-based distro (Ubuntu, Kali, Mint, Pop!\_OS …).  
-> Line ① guarantees `curl`; line ② streams the script straight into Bash.
+ * Copy the code below into your console and watch the magic happen!
+ 
+ ---
 
 ```bash
 sudo apt update && sudo apt install -y curl
